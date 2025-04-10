@@ -35,6 +35,9 @@ main{
     display: flex;
 }
 #left-main-column {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
     height: 100vh;
     margin-left: auto;
     background: no-repeat center/100vh url(img/pawel-czerwinski-W_GK6jbTPjw-unsplash.jpg);
@@ -169,4 +172,16 @@ input[type='password']:invalid {
 a {
     color: #7A1D16;
     padding: .5rem;
+}
+
+.photo-footer {
+    background-color: #000000a4;
+    text-align: center;
+    font-size: 16px;
+    margin-top: auto;
+    padding: 8px;
+}
+
+#disclaimer {
+    font-size: 16px;
 }
